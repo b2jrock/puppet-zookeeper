@@ -68,7 +68,7 @@ class zookeeper {
   }
 
   service { 'dev.zookeeper':
-    ensure  => running,
+    ensure  => stopped,
   }
 
 }
